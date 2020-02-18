@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+   <link rel="stylesheet" href="../vendor/boostrap/css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/style-variable.css">
+   <link rel="stylesheet" href="css/user-style.css">
+   <link rel="stylesheet" href="css/user-mstyle.css" media="only screen and (max-width:600px)">
+   <link rel="stylesheet" href="../css/style.css">
+   <title>Artifcats</title>
+</head>
+<body>
+   <nav class="navbar navbar-expand-lg fixed-top custom-navbar navbar-light" id="mynavbar">
+      <a class="navbar-brand" href="#">
+      Artifcats
+      </a>
+      <button
+         class="navbar-toggler"
+         type="button"
+         data-toggle="collapse"
+         data-target="#navbarSupportedContent"
+         aria-controls="navbarSupportedContent"
+         aria-expanded="false"
+         aria-label="Toggle navigation"
+         >
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav">
+            
+         </ul>
+         <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                  <img src="../assets/user-icon/456326.png" alt="" class="img-fluid navbar-profile-photo mr-2"> Amit Prajapati 
+               </a>
+               <div class="dropdown-menu">
+                 <a class="dropdown-item" href="#"><i class="fas fa-shopping-cart mr-2"></i> My Order</a>
+                 <div class="dropdown-divider"></div>
+                 <a class="dropdown-item" href="#"><i class="fas fa-question-circle mr-2"></i> My Queries</a>
+                 <div class="dropdown-divider"></div>
+                 <a class="dropdown-item" href="#"><i class="fas fa-user-cog mr-2"></i> Settings</a>
+                 <div class="dropdown-divider"></div>
+                 <a class="dropdown-item" href="#"><i class="fas fa-power-off mr-2"></i> Logout</a>
+               </div>
+             </li>
+         </ul>
+      </div>
+   </nav>
+   <section class="user-hero-section" id="user-hero-sectio">
+      <div class="container-fluid">
+         <div class="row">
+            <div class="sidebar-action">
+               <i class="fas fa-ellipsis-v open-sidebar sidebar-action-icon"></i>
+            </div>
+            <div class="col-lg-2 sidebar-column">
+               <div class="sidebar-container row">
+                  <div class="sidebar-item myaccount p-3 col-lg-12">
+                     My Accounts
+                  </div>
+                  <div class="sidebar-item myorder p-3 col-lg-12">
+                     My Order
+                  </div>
+                  <div class="sidebar-item myquery p-3 col-lg-12">
+                     My Query
+                  </div>
+                  <div class="sidebar-item mykyc p-3 active col-lg-12">
+                     My KYC
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-2"></div>
+            <div class="col-lg-10 information-column">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-lg-12">
+                        <div class="information-container-header">
+                           My KYCs
+                        </div>
+                     </div>
+                     <div class="col-lg-12 table-kyc-container">
+                        <table class="table table-kyc-document">
+                           <thead class="thead-light">
+                              <tr>
+                                 <th>#</th>
+                                 <th>Document Type</th>
+                                 <th>Document ID</th>
+                                 <th>Status</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td scope="col">1</td>
+                                 <td scope="col">Aadhar Card</td>
+                                 <td scope="col">XXXX-XXXX-XXXX</td>
+                                 <td scope="col">Verified</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-lg-12">
+                        <div class="information-container-header">
+                           Add Another Document
+                        </div>
+                     </div>
+                     <div class="col-lg-12">
+                        <div class="container kyc-document-section-container">
+                           <div class="row">
+                              <div class="col-lg-6 kyc-field mt-4">
+                                 <input type="text" class="form-control" placeholder="File Name" name="kyc-file-name" id="kyc-file-name">
+                              </div>
+                              <div class="col-lg-6 kyc-field mt-4">
+                                 <input type="text" class="form-control" placeholder="Document Type" name="kyc-document-type" id="kyc-document-type">
+                              </div>
+                              <div class="col-lg-12 kyc-field mt-4">
+                                 <input type="text" class="form-control" placeholder="Comments" name="kyc-comments" id="kyc-comments">
+                              </div>
+                              <div class="col-lg-12 kyc-field mt-4">
+                                 <div class="file-upload ">
+                                    <div class="image-upload-wrap ">
+                                      <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" name="kyc-document" id="kyc-document"/>
+                                      <div class="drag-text">
+                                         
+                                        <h3><i class="far fa-file-pdf fa-3x mb-3"></i> <br> No documents are listed for this customer.</h3>
+                                      </div>
+                                    </div>
+                                    <div class="file-upload-content">
+                                      <img class="file-upload-image" src="#" alt="your image" />
+                                      <div class="image-title-wrap">
+                                        <button type="button" onclick="removeUpload()" class="remove-image">Remove <span class="image-title">Uploaded Document</span></button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="text-center">
+                                    <button class="file-upload-btn" type="button" onclick="$('.file-upload-input').trigger( 'click' )">Add Document</button>
+                                  </div>
+                                 
+                              </div>
+                              <div class="col-lg-12 mt-5">
+                                 <button class="btn btn-upload-kyc-document float-right">Upload KYC Document</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   
+   <script src="../vendor/boostrap/js/jquery-3.3.1.slim.min.js"></script>
+   <script src="../vendor/boostrap/js/popper.min.js"></script>
+   <script src="../vendor/boostrap/js/bootstrap.min.js"></script>
+   <script src="js/script.js"></script>
+   <script>
+      function readURL(input) {
+  if (input.files && input.files[0]) {
+
+    var reader = new FileReader();
+
+    reader.onload = function(e) {
+      $('.image-upload-wrap').hide();
+
+      $('.file-upload-image').attr('src', e.target.result);
+      $('.file-upload-content').show();
+
+      $('.image-title').html(input.files[0].name);
+    };
+
+    reader.readAsDataURL(input.files[0]);
+
+  } else {
+    removeUpload();
+  }
+}
+
+function removeUpload() {
+  $('.file-upload-input').replaceWith($('.file-upload-input').clone());
+  $('.file-upload-content').hide();
+  $('.image-upload-wrap').show();
+}
+$('.image-upload-wrap').bind('dragover', function () {
+        $('.image-upload-wrap').addClass('image-dropping');
+    });
+    $('.image-upload-wrap').bind('dragleave', function () {
+        $('.image-upload-wrap').removeClass('image-dropping');
+});
+</script>
+</body>
+</html>

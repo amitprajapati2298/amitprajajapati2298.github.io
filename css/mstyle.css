@@ -1,0 +1,174 @@
+.hero-content{
+    padding:10px;
+}
+
+.hero-button{
+    margin-top:50px;
+}
+
+.img-fluid.action-illustration{
+    width: 100% !important;
+    height: auto !important;
+    padding:20px;
+}
+
+.action-heading{
+    margin-top:70px;
+}
+
+.artwork-item-container,.artist-item-container{
+    margin-top:20px;    
+}
+.footer{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+
+/*About Us Page */
+.aboutus-hero-illustration-container,.aboutus-hero-content{
+    padding:10px !important;
+}
+
+.team-member-detail{
+    padding:20px !important;
+}
+
+/*Arts Customizations*/
+
+.about-artists-section{
+    padding:20px !important;
+}
+
+.about-artist-bio{
+    margin-top:30px !important;
+}
+
+.customize-button{
+    padding:20px;
+}
+
+.frame-images-container>img{
+    height: 35px !important;
+    width: auto;
+}
+
+.frame-sizes-container,.frame-images-container{
+margin-top:35px;  
+}
+
+/*Contact Us */
+.contactus-hero-illustration,.contactus-hero-content{
+    padding:20px !important;
+}
+
+.contactus-moredetails-illustration-container{
+    padding:10px !important;
+}
+
+.more-details-contact,.more-details-social-link{
+    margin-top:20px;
+}
+.sendquery-name,.sendquery-email,.sendquery-subject,.sendquery-message{
+    margin-top:10px;
+}
+
+/*Login , SignUp, Forgot Password and OTP*/
+
+.forgot-password-page-illustration-container,
+.login-page-illustration-container,
+.otp-page-illustration-container,
+.signup-page-illustration-container{
+    display: none;
+}
+.forgot-password-page-form-container,
+.login-page-form-container,
+.otp-page-form-container,
+.signup-page-form-container{
+
+    min-height: 85vh;
+    padding:30px !important;
+    padding-top:20% !important;
+    
+}
+.forgot-password-email{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.forgot-password-action>div,
+.login-action>div,
+.otp-action>div,
+.signup-action>div{
+    margin-top:20px !important;
+}
+
+.form-control{
+    margin-top:10px;
+}
+
+/*Order Process*/
+.order-process-container{
+    padding:0px !important;
+}
+.order-process-section{
+    padding:0px !important;
+}
+.step-title{
+    font-size: var(--font-size-small) !important;
+}
+.step-desc{
+    display:none;
+}
+.step-anchor{
+    border-radius: 0px !important;
+}
+.step-anchor>li {
+    
+}
+.step-anchor>li>a{
+    text-align: center;
+    padding-left:0px !important;
+}
+
+
+/*Cart*/
+.btn-accept-confirm{
+    right:0px !important;
+}
+
+/*KYC*/
+.file-upload{
+    width: 100% !important;
+}
+
+/*Payment*/
+.paytm-container,.payumoney-container{
+    
+}
+.divider{
+    padding-left: 5% !important;
+}
+
+.credit-card-info-container,.billing-info-container{
+    margin-top:20px !important;
+}
+.credit-card-info-container>label,
+.billing-info-container>label{
+    margin-top:25px !important;
+}
+
+.credit-card-info-container>input,
+.billing-info-container>input{
+    margin-top:0px !important;
+}
+
+.btn-process-pay{
+    margin-top:50px !important;
+    width: 100% !important;
+    position: unset !important;
+}
+
+/*Footer*/
+.btn-subscribe{
+    margin-top:10px;
+}

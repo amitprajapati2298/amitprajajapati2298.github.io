@@ -1,0 +1,161 @@
+:root{
+	--sidebar-bg-color:#f6f5ff;
+	--fixed-height:100%;
+}
+/*Site*/
+body {
+	font-family: montserrat-regular;
+	padding: 0px;
+	margin: 0px;
+	font-size: var(--font-size-small);
+	color: var(--theme-color-2) !important;
+}
+.btn:hover{
+	color: white;
+}
+.sidebar-action{
+	display: none;
+}
+/*Navbar*/
+
+.custom-navbar {
+	background-color: white;
+	box-shadow: var(--card-box-shadow-1-50op);
+}
+
+.navbar-brand {
+	font-family: montserratalternates-bold;
+}
+.navbar-profile-photo{
+	height: 30px;
+	width: auto;
+}
+.dropdown-menu{
+    font-size: var(--font-size-small);
+    border-radius: 0px;
+    border:1px solid var(--theme-color-2-10op);
+    box-shadow: var(--card-box-shadow-1-50op);
+}
+
+/* User Hero Section */
+.user-hero-section{
+    margin-top: var(--first-section-margin-top);
+	background-color: var(--sidebar-bg-color);
+}
+
+.sidebar-column{
+	background-color: var(--sidebar-bg-color);
+	height:var(--fixed-height);
+	position: fixed;
+	z-index: 2;
+}
+
+.sidebar-item.active{
+    background-color: var(--theme-color-2-5op);
+    border-left: 5px solid var(--theme-color-2);
+}
+
+/*User Acccount Details Section*/
+
+.information-column{
+	font-size: var(--font-size-small);
+	background-color: white;
+}
+
+.information-container-header{
+    font-size: var(--font-size-medium);
+    margin:20px 0px;
+    padding-left:20px;
+    border-left:5px solid var(--theme-color-2);
+    color: var(--theme-color-2);
+}
+.form-control.user-account-field{
+    font-size: var(--font-size-small);
+	border: 0px;
+	border-radius: 0px;
+	border-bottom: 1px solid var(--theme-color-1-10opc);
+    
+}
+.input-group-text{
+    border: 0px;
+    background-color: transparent;
+}
+
+.btn-user-account-submit{
+    font-size: var(--font-size-small);
+	border-radius: 50px;
+    width: 50%;
+    background-color: var(--theme-color-2);
+    font-weight: 700;
+	color: white;
+}
+
+.information-column{
+    background-color: white;
+}
+
+
+
+.btn-get-invoice{
+	background-color: var(--theme-color-2);
+	color: white;
+	border-radius: 50px;
+	font-family: montserrat-bold;
+	width: 100%;
+}
+.btn-get-invoice:hover{
+	background-color: var(--theme-color-dark);
+	color: white;
+	
+}
+
+
+/*Invoice*/
+.invoice-container{
+	margin: 10px;
+	padding: 40px;
+	box-shadow: var(--card-box-shadow-1-50op);
+	font-size: var(--font-size-small);
+}
+.invoice-company-name{
+	font-size: var(--font-size-medium);
+	font-family: montserrat-bold;
+}
+
+.invoice-sub-header{
+	font-size: var(--font-size-small);
+	font-family: montserrat-bold;
+}
+
+.invoice-order-table>thead.thead-light th{
+	background-color: var(--theme-color-2-5op);
+	border-color: var(--theme-color-2-10op);
+}
+.invoice-total-amount {
+	font-size: var(--font-size-medium);
+	font-family: montserrat-bold;
+}
+
+
+.btn-print-invoice{
+	background-color: var(--theme-color-2);
+	color: white;
+	border-radius: 50px;
+	font-family: montserrat-bold;
+	width: 100%;
+}
+.btn-print-invoice:hover{
+	background-color: var(--theme-color-dark);
+	color: white;
+	
+}
+
+.table-kyc-document>thead.thead-light th{
+	background-color: var(--theme-color-2-5op);
+	border-color: var(--theme-color-2-10op);
+}
+
+.table-query-item-container>thead.thead-light th{
+	background-color: var(--theme-color-2-5op);
+	border-color: var(--theme-color-2-10op);
+}

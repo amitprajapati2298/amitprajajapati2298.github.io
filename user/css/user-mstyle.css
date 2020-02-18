@@ -1,0 +1,49 @@
+/*Sidebar Navigation*/
+.sidebar-action{
+    position:fixed;
+    right: 0px;
+    top:75px;
+    color:white;
+    z-index: 99;
+    background-color: var(--theme-color-2);
+    box-shadow: var(--card-box-shadow-1-50op);
+}
+.sidebar-action-icon{
+    margin:10px 20px;
+}
+.sidebar-action{
+	display: block;
+}
+
+/* Invoice */
+.invoice-order-table-container{
+    overflow-x: auto;
+}
+
+.invoice-container{
+    padding:20px;
+    padding-top:20px;
+    margin:0px;
+}
+
+/*KYC*/
+.table-kyc-container{
+    overflow-x: auto;
+}
+.file-upload {
+    width: 100% !important;
+}
+
+/*Orders*/
+.frame-images-container>img{
+    height: 35px !important;
+    width: auto;
+}
+
+.frame-sizes-container,.frame-images-container{
+margin-top:35px;  
+}
+.check-out-section-container{
+    padding:0px;
+}
+

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+   <link rel="stylesheet" href="../vendor/boostrap/css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/style-variable.css">
+   <link rel="stylesheet" href="css/admin-style.css">
+   <link rel="stylesheet" href="css/admin-mstyle.css" media="only screen and (max-width:600px)">
+   <link rel="stylesheet" href="../css/style.css">
+   <title>Artifcats</title>
+</head>
+<body>
+   <nav class="navbar navbar-expand-lg fixed-top custom-navbar navbar-light" id="mynavbar">
+      <a class="navbar-brand" href="#">
+      Artifcats
+      </a>
+      <button
+         class="navbar-toggler"
+         type="button"
+         data-toggle="collapse"
+         data-target="#navbarSupportedContent"
+         aria-controls="navbarSupportedContent"
+         aria-expanded="false"
+         aria-label="Toggle navigation"
+         >
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav">
+            
+         </ul>
+         <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                  <img src="../assets/user-icon/456326.png" alt="" class="img-fluid navbar-profile-photo mr-2"> Amit Prajapati 
+               </a>
+               <div class="dropdown-menu">
+                 <a class="dropdown-item" href="#"><i class="fas fa-user-cog mr-2"></i> Settings</a>
+                 <div class="dropdown-divider"></div>
+                 <a class="dropdown-item" href="#"><i class="fas fa-power-off mr-2"></i> Logout</a>
+               </div>
+             </li>
+         </ul>
+      </div>
+   </nav>
+   <section class="user-hero-section" id="user-hero-sectio">
+      <div class="container-fluid">
+         <div class="row">
+            <div class="sidebar-action">
+               <i class="fas fa-ellipsis-v open-sidebar sidebar-action-icon"></i>
+            </div>
+            <div class="col-lg-2 sidebar-column">
+               <div class="sidebar-container row">
+                  <div class="sidebar-item p-3 col-lg-12 dashboard">
+                     <i class="fas fa-tachometer-alt pr-2"></i> Dashboard
+                  </div>
+                  <div class="sidebar-item p-3 col-lg-12 users">
+                     <i class="fas fa-users-cog pr-2"></i> Users
+                  </div>
+                  <div class="sidebar-item p-3 col-lg-12 customers">
+                     <i class="fas fa-users pr-2"></i> Customers
+                  </div>
+                  <div class="sidebar-item p-3 col-lg-12 arts">
+                     <i class="fas fa-fill-drip pr-2"></i> Arts
+                  </div>
+                  <div class="sidebar-item p-3 col-lg-12 artists">
+                     <i class="fas fa-briefcase pr-2"></i> Artists
+                  </div>
+                  <div class="sidebar-item p-3 active col-lg-12 billing">
+                     <i class="fas fa-file-invoice pr-2"></i> Billing
+                  </div>
+                  <div class="sidebar-item p-3 col-lg-12 shipping">
+                     <i class="fas fa-shipping-fast pr-2"></i> Shipping
+                  </div>
+                  <div class="sidebar-item p-3 col-lg-12 queries">
+                     <i class="fas fa-question-circle pr-2"></i> Queries
+                  </div>
+                  <div class="sidebar-item p-3 col-lg-12 reports">
+                     <i class="fas fa-money-check-alt pr-2"></i> Reports
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-2"></div>
+            <div class="col-lg-10 information-column">
+               <div class="container invoice-container">
+                  <div class="row">
+                     <div class="col-lg-3">
+                        <div class="invoice-company-name mb-3">Company Name</div>
+                        <div class="invoice-company-address mb-2">Melbourne, Australia
+                           P: (123) 456-7890</div>
+                     </div>
+                  </div>
+                  <div class="dropdown-divider  pb-2"></div>
+                  <div class="row">
+                     <div class="col-lg-3">
+                        
+                        <div class="invoice-to mb-1" ><span class="invoice-sub-header">Invoice to:</span></div>
+                        <div class="invoice-customer-name  mb-1">John Doe</div>
+                        <div class="invoice-customer-address  mb-1">
+                           795 Folsom Ave, Suite 600 San Francisco, CA 94107
+                        </div>
+
+                     </div>
+                     <div class="col-lg-6"></div>
+                     <div class="col-lg-3 float-right">
+                        
+                        <div class="invoice-order-id mb-1"><span class="invoice-sub-header">Order ID : </span class="invoice-sub-header"> #123446</div>
+                        <div class="invoice-order-date mb-1"><span class="invoice-sub-header">Order Date : </span> March 15, 2019</div>
+                        <div class="invoice-order-status mb-1">
+                          <span class="invoice-sub-header">Order Status : </span> <span class="badge badge-pill badge-success">Paid</span>
+                        </div>
+
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-lg-12">
+                        <div class="invoice-order-table-container">
+                           <table class="table invoice-order-table mt-3">
+                              <thead class="thead-light">
+                                <tr>
+                                  <th scope="col">#</th>
+                                  <th scope="col">ITEM</th>
+                                  <th scope="col">DESCRIPTION</th>
+                                  <th scope="col">QUANTITY</th>
+                                  <th scope="col">PRICE</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                   <td>1</td>
+                                   <td>Painting 1</td>
+                                   <td>Amazing Paint by Amit Prajapati | August Collection</td>
+                                   <td>2</td>
+                                   <td><span class="currency-item">$</span>452</td>
+                                </tr>
+                                <tr>
+                                 <td>1</td>
+                                 <td>Painting 1</td>
+                                 <td>Amazing Paint by Amit Prajapati | August Collection</td>
+                                 <td>2</td>
+                                 <td><span class="currency-item">$</span>452</td>
+                              </tr>
+                              <tr>
+                                 <td>1</td>
+                                 <td>Painting 1</td>
+                                 <td>Amazing Paint by Amit Prajapati | August Collection</td>
+                                 <td>2</td>
+                                 <td><span class="currency-item">$</span>452</td>
+                              </tr>
+                              </tbody>
+                            </table>
+                        </div>
+                     </div>
+                     
+                  </div>
+                  <div class="row">
+                     <div class="col-lg-12">
+                        <div class="invoice-amount-details float-right">
+                           <div class="invoice-subtotal mb-3">
+                              <span class="invoice-sub-header">Sub Total : </span>
+                              <span class="currency-item">$</span>
+                              2930.00
+                           </div>
+                           <div class="invoice-discount mb-3">
+                              <span class="invoice-sub-header">Discount : </span>
+                              12.9%
+                           </div>
+                           <div class="invoice-tax mb-3">
+                              <span class="invoice-sub-header">Tax : </span> <br>
+                              9% CGST <br>
+                              9% SGST
+                           </div>
+                           <div class="invoice-total-amount mb-3 ">
+                              USD 2930.00
+                           </div>
+                           <div class="invoice-print-button-container">
+                              <button class="btn btn-print-invoice">
+                                 Print
+                              </button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+              </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <script src="../vendor/boostrap/js/jquery-3.3.1.slim.min.js"></script>
+   <script src="../vendor/boostrap/js/popper.min.js"></script>
+   <script src="../vendor/boostrap/js/bootstrap.min.js"></script>
+   <script src="js/script.js"></script>
+</body>
+</html>
+

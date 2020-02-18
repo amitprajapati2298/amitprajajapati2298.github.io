@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+   <link rel="stylesheet" href="../vendor/boostrap/css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/style-variable.css">
+   <link rel="stylesheet" href="css/user-style.css">
+   <link rel="stylesheet" href="css/user-mstyle.css" media="only screen and (max-width:600px)">
+   <link rel="stylesheet" href="../css/style.css">
+   <title>Artifcats</title>
+</head>
+<body>
+   <nav class="navbar navbar-expand-lg fixed-top custom-navbar navbar-light" id="mynavbar">
+      <a class="navbar-brand" href="#">
+      Artifcats
+      </a>
+      <button
+         class="navbar-toggler"
+         type="button"
+         data-toggle="collapse"
+         data-target="#navbarSupportedContent"
+         aria-controls="navbarSupportedContent"
+         aria-expanded="false"
+         aria-label="Toggle navigation"
+         >
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav">
+            
+         </ul>
+         <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                  <img src="../assets/user-icon/456326.png" alt="" class="img-fluid navbar-profile-photo mr-2"> Amit Prajapati 
+               </a>
+               <div class="dropdown-menu">
+                 <a class="dropdown-item" href="#"><i class="fas fa-shopping-cart mr-2"></i> My Order</a>
+                 <div class="dropdown-divider"></div>
+                 <a class="dropdown-item" href="#"><i class="fas fa-question-circle mr-2"></i> My Queries</a>
+                 <div class="dropdown-divider"></div>
+                 <a class="dropdown-item" href="#"><i class="fas fa-user-cog mr-2"></i> Settings</a>
+                 <div class="dropdown-divider"></div>
+                 <a class="dropdown-item" href="#"><i class="fas fa-power-off mr-2"></i> Logout</a>
+               </div>
+             </li>
+         </ul>
+      </div>
+   </nav>
+   <section class="user-hero-section" id="user-hero-sectio">
+      <div class="container-fluid">
+         <div class="row">
+            <div class="sidebar-action">
+               <i class="fas fa-ellipsis-v open-sidebar sidebar-action-icon"></i>
+            </div>
+            <div class="col-lg-2 sidebar-column">
+               <div class="sidebar-container row">
+                  <div class="sidebar-item myaccount p-3 col-lg-12">
+                     My Accounts
+                  </div>
+                  <div class="sidebar-item myorder p-3 col-lg-12">
+                     My Order
+                  </div>
+                  <div class="sidebar-item myquery p-3 active col-lg-12">
+                     My Query
+                  </div>
+                  <div class="sidebar-item mykyc p-3 col-lg-12">
+                     My KYC
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-2"></div>
+            <div class="col-lg-10 information-column">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-lg-12">
+                        <div class="information-container-header">
+                           Queries
+                        </div>
+                     </div>
+                     <div class="col-lg-12">
+                        <table class="table table-query-item-container">
+                           <thead class="thead-light">
+                              <tr>
+                                 <th>Ticket ID</th>
+                                 <th>Subject</th>
+                                 <th>Category</th>
+                                 <th>Status</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td scope="col">12346</td>
+                                 <td scope="col">My product price is not visible properly</td>
+                                 <td scope="col">Category</td>
+                                 <td scope="col"><span class="text-danger">On Hold</span></td>
+                              </tr>
+                              <tr>
+                                 <td scope="col">12346</td>
+                                 <td scope="col">My product price is not visible properly</td>
+                                 <td scope="col">Category</td>
+                                 <td scope="col"><span class="text-success">Solved</span></td>
+                              </tr>
+                              <tr>
+                                 <td scope="col">12346</td>
+                                 <td scope="col">My product price is not visible properly</td>
+                                 <td scope="col">Category</td>
+                                 <td scope="col"><span class="text-warning">Process</span></td>
+                              </tr>
+                              <tr>
+                                 <td scope="col">12346</td>
+                                 <td scope="col">My product price is not visible properly</td>
+                                 <td scope="col">Category</td>
+                                 <td scope="col"><span class="text-primary">Solved</span></td>
+                              </tr>
+                              <tr>
+                                 <td scope="col">12346</td>
+                                 <td scope="col">My product price is not visible properly</td>
+                                 <td scope="col">Category</td>
+                                 <td scope="col"><span class="text-success">Solved</span></td>
+                              </tr>
+                              <tr>
+                                 <td scope="col">12346</td>
+                                 <td scope="col">My product price is not visible properly</td>
+                                 <td scope="col">Category</td>
+                                 <td scope="col"><span class="text-success">Solved</span></td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+                  
+            </div>
+         </div>
+      </div>
+   </section>
+   
+   <script src="../vendor/boostrap/js/jquery-3.3.1.slim.min.js"></script>
+   <script src="../vendor/boostrap/js/popper.min.js"></script>
+   <script src="../vendor/boostrap/js/bootstrap.min.js"></script>
+   <script src="js/script.js"></script>
+</body>
+</html>

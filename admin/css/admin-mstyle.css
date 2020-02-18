@@ -1,0 +1,67 @@
+:root {
+	--theme-color-1: #6C63FF;
+	--theme-color-1-05opc: #6C63FF05;
+	--theme-color-1-10opc: #6C63FF10;
+	--theme-color-2: #3F3D56;
+	--theme-color-2-5op: #3F3D5605;
+	--theme-color-2-10op: #3F3D5610;
+	--theme-color-dark: #2F2E41;
+	--theme-color-dark-90op: #2F2E4190;
+	--box-shadow-color-1: #6C63FF25;
+	--box-shadow-color-2: #3F3D5625;
+	--box-shadow-color-1-50op: #6C63FF50;
+	--box-shadow-color-2-50op: #3F3D5650;
+	--card-box-shadow-1: 0px 10px 20px -10px var(--box-shadow-color-1);
+	--card-box-shadow-2: 0px 10px 20px -10px var(--box-shadow-color-2);
+	--card-box-shadow-1-50op: 0px 10px 20px -10px var(--box-shadow-color-1-50op);
+	--card-box-shadow-2-50op: 0px 10px 20px -10px var(--box-shadow-color-2-50op);
+	--font-size-xsmall: 12px;
+	--font-size-small: 14px;
+	--font-size-xmedium: 16px;
+	--font-size-medium: 18px;
+	--font-size-large: 24px;
+	--font-size-xlarge: 36px;
+	--font-size-xxlarge: 48px;
+	--first-section-margin-top: 56px;
+}
+/*Sidebar Navigation*/
+.sidebar-action{
+    position:fixed;
+    right: 0px;
+    top:65px;
+    color:var(--theme-color-2);
+    z-index: 99;
+    background-color: white;
+    box-shadow: var(--card-box-shadow-1-50op);
+}
+.sidebar-action-icon{
+    margin:10px 20px;
+}
+.sidebar-action{
+	display: block !important;
+}
+
+/* Artists */
+.btn-add-artists,.btn-add-art{
+    padding-bottom:49%;
+}
+/*Arts*/
+.btn-search-filter{
+    width:49%;
+    margin-top:5px;
+}
+.btn-search-submit{
+    width:100%;
+    margin-top:10px;
+}
+.sort-by-container{
+    margin-top:20px;
+}
+.art-management-contiainer{
+    margin-top:10px;
+}
+
+/*Billing*/
+.table-container{
+    overflow-x: auto;
+}
