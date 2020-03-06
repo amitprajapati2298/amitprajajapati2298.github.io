@@ -32,3 +32,11 @@ $("#add-filter-search").on("click",function(){
 $("#add-sort-search").on("click",function(){
 	$("#add-sort-search-modal").modal("show");
 });
+
+
+// accordion js
+var $accordionTrigger = $('.single_acco_title a');
+$accordionTrigger.on('click', function () {
+ $accordionTrigger.not(this).removeClass('active').find('.fas').not($(this).find('.fas')).removeClass('fa-sort-up').addClass('fa-sort-down');
+ $(this).toggleClass('active').find('.fas').toggleClass('fa-sort-up fa-sort-down');
+});

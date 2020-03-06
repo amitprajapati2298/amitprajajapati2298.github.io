@@ -1,0 +1,66 @@
+Hello,
+
+Some changes to be made:
+
+1. Change Artifact to Artifact  Done
+
+2. Put in the option of changing the artwork every 6 months with an added graphic showing the change in how it works
+->User 
+->My order 
+->Add button to change the painting
+->Open the painting
+
+3. Give us an option of featuring press releases, on the front page, through clicking on the respective logo which can be added in the back end
+-> Add new section like blog on home (Press Releases)
+-> In Admin Section, Add option add the content. (Plugin)
+
+
+/*Sale*/
+Add a Sale section (do it prominently): 
+
+"You can also purchase our artworks, which range from upcoming artist to contemporary artist and modern masters. To explore our collection please call +919819123413 or email (the website email)" 
+
+Add a Press tab: "For press inquiries please email us on (website email)"
+
+
+/*Sale end*/
+
+/*Home*/
+Add a FAQ tab and add the back-end for it in the how it works section at the end(to add/change or delete)
+->Home add faq (sr, qiestion , answeer vategory)
+->Admin FAQ add ()
+
+
+/*About Us*/
+In the about us section insert in big letters, next to a graphic:
+
+"We strive to provide the best in class original artworks at a reasonable price" (an artist (with a palette) drawing artifact on a canvas)
+
+"Our artwork is selected through erudite lenses to meet the sophisticated demands of our customers" (Eye in magnifying glass)
+
+Company History:
+
+"Built on a legacy spanning 25 years, passed down from generation to generation. Our art collection consists of hand picked gems that are truly artifacts."
+
+
+Remove the description of the team. 
+/*About End*/
+
+/* Enterprise  Page*/
+Add an enterprise page
+1. Subcategories: Custom Art Creation
+2. Service Offered 
+3. Procedure 
+4. Client testomonials
+/*End */
+
+
+
+If you think I am missing out on something or going wrong somewhere do let me know. 
+
+Thank You,
+Shanin Bhansali 
+
+
+
+Nibodh.com -> schoolregsiteration

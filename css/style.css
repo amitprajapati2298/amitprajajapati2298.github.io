@@ -578,39 +578,32 @@ body {
 
 .aboutus-hero-title {
 	font-family: montserrat-bold;
-	font-size: var(--font-size-xxlarge);
+	font-size: var(--font-size-xlarge);
+	padding: 40px 20px;
+}
+.aboutus-hero-title2 {
+	font-family: montserrat-bold;
+	font-size: var(--font-size-large);
 	padding: 40px 20px;
 }
 
 .aboutus-hero-illustration {
 	padding: 30px 20px;
 }
-
-
-/* Our Team Section*/
-
-.our-team-section {
-	padding-top: 30px;
-}
-
-.our-team-header {
+.aboutus-hero-heading{
+	font-family: montserrat-bold;
 	font-size: var(--font-size-xlarge);
+	padding: 40px 20px;
+}
+.aboutus-hero-description{
+
+	font-size: var(--font-size-large);
+	margin-bottom: 50px;
 }
 
-.team-member-detail {
-	padding: 120px;
-	margin: auto;
+.magni-eye-img{
+	height: var(--font-size-xlarge);
 }
-
-.team-member-detail-row>div {
-	margin: 0px !important;
-}
-
-.team-member-detail-row>div.user-photo-container {
-	padding: 0px !important;
-	margin: 0px !important;
-}
-
 /*- Art Customization -*/
 
 /* Hero Section */
@@ -1206,3 +1199,221 @@ background-color: var(--theme-color-dark-90op);
   {
 	  opacity: 0;
   }
+
+
+  /**-- Sale Page | Sale Section --**/
+  .sales-page-hero-section{
+	  margin-top: var(--first-section-margin-top);
+	  
+		padding: 50px 10px;
+  }
+  .contactus-sales-orm{
+	background-color: white;
+	box-shadow: var(--card-box-shadow-1-50op);
+	padding:20px;
+	border-radius: 10px;
+}
+  .sales-name>.form-control,
+.sales-email>.form-control,
+.sales-subject>.form-control,
+.sales-subject>.form-control,
+.sales-message>.form-control {
+	font-size: var(--font-size-small);
+	border: 0px;
+	border-radius: 0px;
+	border-bottom: 1px solid var(--theme-color-1-10opc);
+}
+
+
+.btn-send-sale-query {
+	border: 1px solid var(--theme-color-2);
+	border-radius: 50px;
+	font-size: var(--font-size-small);
+	background-color: var(--theme-color-2);
+	color: white;
+	width: 100%;
+}
+
+.btn-send-sale-query:hover {
+	border: 1px solid var(--theme-color-2);
+	
+	font-size: var(--font-size-small);
+	background-color: var(--theme-color-2);
+	color: white;
+	width: 100%;
+}
+.sales-hero-illustration-container {
+	padding: 50px;
+}
+.sales-hero-illustration {
+	padding: 30px 20px;
+}
+
+/*FAQ Section*/
+
+
+
+
+.question-container>.header{
+	font-size: var(--font-size-medium);
+	color: var(--theme-color-2);
+}
+
+.question-container>hr,
+.question-container>hr,
+.question-container>hr {
+	border-color: var(--theme-color-2-10op);
+}
+
+.accordion .accordion__single,
+.accordion .panel-default,
+.panel-group .accordion__single,
+.panel-group .panel-default {
+	-webkit-border-radius: 0;
+	border-radius: 0;
+}
+
+.accordion .accordion__single+.accordion__single,
+.accordion .panel-default+.accordion__single,
+.panel-group .accordion__single+.accordion__single,
+.panel-group .panel-default+.accordion__single {
+	margin-top: 20px;
+}
+
+.accordion .accordion__single+.panel-default,
+.accordion .panel-default+.panel-default,
+.panel-group .accordion__single+.panel-default,
+.panel-group .panel-default+.panel-default {
+	margin-top: 20px;
+}
+
+.accordion .accordion__single .panel-heading,
+.accordion .panel-default .panel-heading,
+.panel-group .accordion__single .panel-heading,
+.panel-group .panel-default .panel-heading {
+	background: none;
+	padding: 0;
+}
+
+.accordion .accordion__single .panel-body,
+.accordion .panel-default .panel-body,
+.panel-group .accordion__single .panel-body,
+.panel-group .panel-default .panel-body {
+	font-size: 16px;
+}
+
+.accordion .accordion__single .panel-body p,
+.accordion .panel-default .panel-body p,
+.panel-group .accordion__single .panel-body p,
+.panel-group .panel-default .panel-body p {
+	margin: 0;
+	padding: 15px;
+	font-size: var(--font-size-small);
+}
+
+.accordion .accordion__single h4,
+.accordion .panel-default h4,
+.panel-group .accordion__single h4,
+.panel-group .panel-default h4 {
+	font-size: 18px;
+}
+
+.accordion .accordion__single h4 a,
+.accordion .panel-default h4 a,
+.panel-group .accordion__single h4 a,
+.panel-group .panel-default h4 a {
+	line-height: 26px;
+	display: block;
+	background: #eff1f5;
+	color: var(--theme-color-dark);
+	font-weight: 400;
+	padding: 15px 27px;
+}
+
+.accordion .accordion__single h4 a i.fas,
+.accordion .panel-default h4 a i.fas,
+.panel-group .accordion__single h4 a i.fas,
+.panel-group .panel-default h4 a i.fas {
+	float: right;
+	line-height: inherit;
+}
+
+.accordion .accordion__single .single_acco_title,
+.accordion .accordion__single .panel-title,
+.accordion .panel-default .single_acco_title,
+.accordion .panel-default .panel-title,
+.panel-group .accordion__single .single_acco_title,
+.panel-group .accordion__single .panel-title,
+.panel-group .panel-default .single_acco_title,
+.panel-group .panel-default .panel-title {
+	font-size: var(--font-size-small);
+}
+
+.accordion .accordion__single .single_acco_title a,
+.accordion .accordion__single .panel-title a,
+.accordion .panel-default .single_acco_title a,
+.accordion .panel-default .panel-title a,
+.panel-group .accordion__single .single_acco_title a,
+.panel-group .accordion__single .panel-title a,
+.panel-group .panel-default .single_acco_title a,
+.panel-group .panel-default .panel-title a {
+	text-decoration: none;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+	font-size: var(--font-size-xmedium);
+}
+
+.accordion .accordion__single .single_acco_title a.active,
+.accordion .accordion__single .panel-title a.active,
+.accordion .panel-default .single_acco_title a.active,
+.accordion .panel-default .panel-title a.active,
+.panel-group .accordion__single .single_acco_title a.active,
+.panel-group .accordion__single .panel-title a.active,
+.panel-group .panel-default .single_acco_title a.active,
+.panel-group .panel-default .panel-title a.active {
+	background: var(--theme-color-2);
+	color: #fff;
+	font-size: var(--font-size-small);
+}
+
+.accordion .single_accordion_body,
+.panel-group .single_accordion_body {
+	padding: 27px 30px;
+}
+
+.accordion .single_accordion_body p,
+.panel-group .single_accordion_body p {
+	margin: 0;
+}
+
+.faq_area {
+	background: #eff1f5;
+}
+
+.faq-title {
+	border-bottom: 1px solid #ececec;
+	padding: 33px 30px;
+}
+
+.faq-title span {
+	display: inline-block;
+	color: #0674ec;
+	font-size: 20px;
+	line-height: 32px;
+	vertical-align: middle;
+	margin-right: 14px;
+}
+
+.faq-title h4 {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 20px;
+	line-height: 32px;
+	color: #000;
+}
+
+.faqs {
+	padding: 30px;
+}
+

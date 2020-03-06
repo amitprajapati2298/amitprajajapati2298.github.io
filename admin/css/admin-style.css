@@ -340,3 +340,29 @@ background-color: var(--theme-color-dark) !important;
 .search-query{
 	font-size:small;
 }
+
+/* FAQs Section */
+
+/* Users */
+.faq-table>thead.thead-light th{
+	background-color: var(--theme-color-2-5op);
+	border-color: var(--theme-color-2-10op);
+}
+
+.faq-table-photo{
+	width: 30px;
+	height: auto;
+}
+
+.faq-form-control.form-control{
+	font-size: var(--font-size-small);
+	border: 0px;
+	border-radius: 50px;
+	border: 1px solid var(--theme-color-2);
+}
+textarea.faq-form-control.form-control{
+	font-size: var(--font-size-small);
+	border: 0px;
+	border-radius: 10px;
+	border: 1px solid var(--theme-color-2);
+}

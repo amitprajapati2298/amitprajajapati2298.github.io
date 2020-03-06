@@ -51,3 +51,6 @@ $('.shipping').on('click',function(){
 $('.reports').on('click',function(){
 	window.location = "reports.html";
 });
+$('.faq').on('click',function(){
+	window.location = "faq.html";
+});
